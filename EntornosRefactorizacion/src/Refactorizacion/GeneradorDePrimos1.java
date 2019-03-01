@@ -1,4 +1,5 @@
 package Refactorizacion;
+//Generador de primos metodos sin static
 
 public class GeneradorDePrimos1 {
 	
