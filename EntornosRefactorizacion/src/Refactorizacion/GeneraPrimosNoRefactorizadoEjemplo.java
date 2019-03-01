@@ -1,4 +1,4 @@
-package EjemploSinRefactorizar;
+package Refactorizacion;
 
 public class GeneraPrimosNoRefactorizadoEjemplo {
 
