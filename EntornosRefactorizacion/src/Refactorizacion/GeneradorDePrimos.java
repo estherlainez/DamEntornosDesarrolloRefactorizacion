@@ -19,7 +19,7 @@ public class GeneradorDePrimos {
 		} else { 
 			inicializarCandidatos(max);
 			eliminarMultiplos();
-			//obtenerCandidatosNoEliminados();
+			obtenerCandidatosNoEliminados();
 			return primos;
 		}
 		
@@ -61,6 +61,18 @@ public class GeneradorDePrimos {
 			  esPrimo[multiplo]=false;
 	  }
 				
+	  private static void obtenerCandidatosNoEliminados() {
+		  int i, j, cuenta;
+		  cuenta=0;
+		  for (i=0; i<esPrimo.length; i++)
+			  if (esPrimo[i])
+				  cuenta++;
+		  
+		  primos = new int [cuenta];
+		  for (i=0,j=0;i<esPrimo.length;i++)
+			  if(esPrimo[i])
+				  primos[j++] = i;
+	  }
 }		
 			
 			
