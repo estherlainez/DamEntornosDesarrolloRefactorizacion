@@ -1,6 +1,8 @@
 package Refactorizacion;
-//Generador de primos metodos sin static
+/**@see
+ * Generador de primos metodos sin static
 
+*/
 public class GeneradorDePrimos1 {
 	
 
@@ -8,7 +10,10 @@ public class GeneradorDePrimos1 {
 	private  int primos[];
 	
 	
-	
+	/**
+	 * @param max es el valor maximo
+	 * @return los numeros primos
+	 */
 	  public int[] generarPrimos(int max) {
 		int i, j;
 		

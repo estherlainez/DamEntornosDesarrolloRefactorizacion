@@ -1,5 +1,9 @@
 package Refactorizacion;
-
+/**
+ * Esta es la version final que nos da el profesor para ver como
+ * queda el programa refactorizado al 100%
+ * @author Antonio
+ */
 public class VersionFinal{
  private boolean esPrimo[];
  private int primos[];
